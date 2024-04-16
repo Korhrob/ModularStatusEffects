@@ -1,0 +1,53 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using ModularStatusEffects;
+
+public class Character : MonoBehaviour {
+
+  public Dictionary<Stat.Type, int> stats = new Dictionary<Stat.Type, int> {
+    { Stat.Type.STR, 0 },
+    { Stat.Type.AGI, 0 },
+    { Stat.Type.DEX, 0 },
+    { Stat.Type.INT, 0 },
+    { Stat.Type.VIT, 0 },
+    { Stat.Type.LUK, 0 },
+  };
+  public StatusManager statusManager;
+
+  void Awake() {
+    statusManager = new StatusManager(this);
+  }
+
+}
+
+publc class StatusManager {
+
+  public void ApplyStatusEffect(StatusEffectInstance instance) {
+  
+  }
+
+}
+
+public class Stat {
+
+  public enum Type {
+    STR,
+    AGI,
+    DEX,
+    INT,
+    VIT,
+    LUK
+  }
+
+}
+
+public struct DamageData {
+  public Character source;
+  public int damage;
+
+  public DamageData(Character c, int dmg) {
+    source = c;
+    damage = dmg;
+  }
+}
