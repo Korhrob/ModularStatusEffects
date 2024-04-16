@@ -10,6 +10,8 @@ This does not include a status manager or character script to test with, but hop
 - Include the namespace by adding "using ModularStatusEffects;" at the top of the file in whatever scripts you want to use this in
 - Create new instances (Status Effect Instance) based off existing ModularStatusEffect and apply those to your character or status manager
 ![alt text](https://github.com/Korhrob/ModularStatusEffects/blob/main/example.png?raw=true "Example")
+- For example if you wanted to check for a specific Crowd Control type, in your character or status manager you could do something like this
+![alt text](https://github.com/Korhrob/ModularStatusEffects/blob/main/example2.png?raw=true "Example2")
 
 
 **How to make status effects**
