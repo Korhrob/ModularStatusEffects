@@ -8,7 +8,9 @@ This does not include a status manager or character script to test with, but hop
 
 # How to use
 - Include the namespace by adding "using ModularStatusEffects;" at the top of the file in whatever scripts you want to use this in
-- Create new instances (Status Effect Instance) based on existing ModularStatusEffect and apply those to your character or status manager
+- Create new instances (Status Effect Instance) based off existing ModularStatusEffect and apply those to your character or status manager
+![alt text](https://github.com/Korhrob/ModularStatusEffects/blob/main/example.png?raw=true "Example")
+
 
 **How to make status effects**
 Right click project folder or click "Assets" from toolbar and choose 
