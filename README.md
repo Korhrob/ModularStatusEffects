@@ -10,7 +10,8 @@ This does not include a status manager or character script to test with, but hop
 Include the namespace by adding "using ModularStatusEffects;" at the top of the file in whatever scripts you want to use this in
 
 **How to make status effects**
-Right click project folder or click "Assets" from toolbar and choose "Create" -> "Modular Status Effect" -> "New Status Effect"
+Right click project folder or click "Assets" from toolbar and choose 
+"Create" -> "Modular Status Effect" -> "New Status Effect"
 
 ![alt text](https://github.com/Korhrob/ModularStatusEffects/blob/main/step1.png "Step1")
 ![alt text](https://github.com/Korhrob/ModularStatusEffects/blob/main/step2.png "Step2")
@@ -26,4 +27,5 @@ Copy the ComponentExample C# script and change the name to whatever you want and
 
 ![alt text](https://github.com/Korhrob/ModularStatusEffects/blob/main/step4.png "Step4")
 
-Right click project folder or click "Assets" from toolbar and choose "Create" -> "Modular Status Effect" -> "Status Effect Component" -> your component
+Right click project folder or click "Assets" from toolbar and choose 
+"Create" -> "Modular Status Effect" -> "Status Effect Component" -> your component
