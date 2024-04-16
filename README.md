@@ -6,8 +6,8 @@ Made and tested in Unity 2021.3.24f1
 I made this for my own project to make it easy to add and modify status effects in a lego-like manner.
 This does not include a status manager or character script to test with, but hopefully isnt too difficult to change to your needs
 
-**How to use**
-- Include the namespace by adding "using ModularStatusEffects;" at the top of the file in whatever scripts you want to use this in
+# How to use
+Include the namespace by adding "using ModularStatusEffects;" at the top of the file in whatever scripts you want to use this in
 
 **How to make status effects**
 - Right click project folder or click "Assets" from toolbar and choose "Create" -> "Modular Status Effect" -> "New Status Effect"
