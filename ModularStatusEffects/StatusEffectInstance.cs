@@ -47,8 +47,8 @@ namespace ModularStatusEffects {
 
             if (baseEffect.visualEffectType == StatusVisualEffectType.OnApply) {
 
-                VFX v = PrefabManager.instance.InstantiatePrefabType(baseEffect.visualEffect);
-                v.Initialize(new PositionData(c.transform.position, Vector3.one), null);
+                //VFX v = PrefabManager.InstantiatePrefabType(baseEffect.visualEffect);
+                //v.Initialize(new PositionData(c.transform.position, Vector3.one), null);
 
             }
 
@@ -89,8 +89,8 @@ namespace ModularStatusEffects {
 
             if (baseEffect.visualEffectType == StatusVisualEffectType.OnTick) {
 
-                VFX v = PrefabManager.instance.InstantiatePrefabType(baseEffect.visualEffect);
-                v.Initialize(new PositionData(c.transform.position, Vector3.one), null);
+                //VFX v = PrefabManager.InstantiatePrefabType(baseEffect.visualEffect);
+                //v.Initialize(new PositionData(c.transform.position, Vector3.one), null);
 
             }
 
