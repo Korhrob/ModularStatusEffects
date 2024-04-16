@@ -12,7 +12,8 @@ This does not include a status manager or character script to test with, but hop
 ![alt text](https://github.com/Korhrob/ModularStatusEffects/blob/main/example.png?raw=true "Example")
 - For example if you wanted to check for a specific Crowd Control type, in your character or status manager you could do something like this
 ![alt text](https://github.com/Korhrob/ModularStatusEffects/blob/main/example2.png?raw=true "Example2")
-
+- Or if you wanted to tick damage over time component you could do something like this in
+![alt text](https://github.com/Korhrob/ModularStatusEffects/blob/main/example3.png?raw=true "Example3")
 
 **How to make status effects**
 Right click project folder or click "Assets" from toolbar and choose 
